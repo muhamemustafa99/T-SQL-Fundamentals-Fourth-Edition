@@ -76,5 +76,3 @@ ALTER TABLE dbo.Orders
   ADD CONSTRAINT DFT_Orders_orderts
   DEFAULT(SYSDATETIME()) FOR orderts;
 
--- Cleanup
-DROP TABLE IF EXISTS dbo.Orders, dbo.Employees;
